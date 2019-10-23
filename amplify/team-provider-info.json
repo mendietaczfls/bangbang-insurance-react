@@ -9,6 +9,13 @@
             "UnauthRoleName": "insurance-react-dev-20191022222134-unauthRole",
             "StackName": "insurance-react-dev-20191022222134",
             "StackId": "arn:aws:cloudformation:ap-southeast-2:241153584263:stack/insurance-react-dev-20191022222134/1c02cd20-f4be-11e9-ab9b-0aa5ebf3bee6"
+        },
+        "categories": {
+            "auth": {
+                "insurancereactf23f3790": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"397167967036-j8899n8ivsnh4mkh14t303ksg7v1pahu.apps.googleusercontent.com\",\"client_secret\":\"9-fMlMBmlq4A2VG9U2l4QpKQ\"}]"
+                }
+            }
         }
     }
 }

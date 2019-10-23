@@ -1,28 +1,34 @@
 {
-	"api": {
-		"slsgraphqlapp": {
-			"service": "AppSync",
-			"providerPlugin": "awscloudformation",
-			"output": {
-				"authConfig": {
-					"additionalAuthenticationProviders": [],
-					"defaultAuthentication": {
-						"authenticationType": "API_KEY",
-						"apiKeyConfig": {
-							"description": "2",
-							"apiKeyExpirationDays": "2"
-						}
-					}
-				}
-			}
-		}
-	},
-	"hosting": {
-		"S3AndCloudFront": {
-			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation"
-		}
-	},
-	"function": {},
-	"auth": {}
+    "api": {
+        "slsgraphqlapp": {
+            "service": "AppSync",
+            "providerPlugin": "awscloudformation",
+            "output": {
+                "authConfig": {
+                    "additionalAuthenticationProviders": [],
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY",
+                        "apiKeyConfig": {
+                            "description": "2",
+                            "apiKeyExpirationDays": "2"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "function": {},
+    "auth": {
+        "insurancereactf23f3790": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    }
 }
