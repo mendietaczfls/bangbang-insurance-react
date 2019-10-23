@@ -5,6 +5,7 @@ export const getTodo = `query GetTodo($id: ID!) {
   getTodo(id: $id) {
     id
     name
+    price
     description
   }
 }
@@ -18,6 +19,7 @@ export const listTodos = `query ListTodos(
     items {
       id
       name
+      price
       description
     }
     nextToken

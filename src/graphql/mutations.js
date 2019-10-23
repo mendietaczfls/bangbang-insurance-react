@@ -5,6 +5,7 @@ export const createTodo = `mutation CreateTodo($input: CreateTodoInput!) {
   createTodo(input: $input) {
     id
     name
+    price
     description
   }
 }
@@ -13,6 +14,7 @@ export const updateTodo = `mutation UpdateTodo($input: UpdateTodoInput!) {
   updateTodo(input: $input) {
     id
     name
+    price
     description
   }
 }
@@ -21,6 +23,7 @@ export const deleteTodo = `mutation DeleteTodo($input: DeleteTodoInput!) {
   deleteTodo(input: $input) {
     id
     name
+    price
     description
   }
 }

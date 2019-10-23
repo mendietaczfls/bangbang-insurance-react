@@ -5,6 +5,7 @@ export const onCreateTodo = `subscription OnCreateTodo {
   onCreateTodo {
     id
     name
+    price
     description
   }
 }
@@ -13,6 +14,7 @@ export const onUpdateTodo = `subscription OnUpdateTodo {
   onUpdateTodo {
     id
     name
+    price
     description
   }
 }
@@ -21,6 +23,7 @@ export const onDeleteTodo = `subscription OnDeleteTodo {
   onDeleteTodo {
     id
     name
+    price
     description
   }
 }
